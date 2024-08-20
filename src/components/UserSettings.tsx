@@ -83,6 +83,8 @@ export default function UserSettings({closeSettings, refreshNewChat} : UserSetti
               <option value={Constants.GPT_4}>GPT-4</option>
               <option value={Constants.GPT_4_TURBO}>GPT-4-Turbo</option>
               <option value={Constants.GPT_4_OMNI}>GPT-4o</option>
+              <option value={Constants.CHATGPT_4_OMNI}>ChatGPT-4o (Higher Token output value)</option>
+              <option value={Constants.GPT_4_OMNI_MINI}>GPT-4o-mini replaces GPT3.5</option>
             </select>
           </div>
 
